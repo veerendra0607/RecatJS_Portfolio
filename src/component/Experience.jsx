@@ -5,6 +5,7 @@ import java from '../assets/experience/java.jpeg'
 import reactImage from '../assets/experience/react.png'
 import graphql from '../assets/experience/graphql.png'
 import github from '../assets/experience/github.png'
+import dart from '../assets/experience/download.png'
 
 const Experience = () => {
     const tech=[
@@ -13,6 +14,12 @@ const Experience = () => {
             src:flutter,
             titel:'Flutter',
             style:'shadow-orange-500'
+        },
+        {
+            id:5,
+            src:dart,
+            titel:'Dart',
+            style:'shadow-sky-500'
         },
         {
             id:2,
@@ -32,12 +39,7 @@ const Experience = () => {
             titel:'REACT JS',
             style:'shadow-blue-600'
         },
-        // {
-        //     id:5,
-        //     src:tailwind,
-        //     titel:'Tailwind',
-        //     style:'shadow-sky-500'
-        // },
+     
         // {
         //     id:6,
         //     src:nextjs,
