@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaGithub,FaLinkedin, FaBars} from 'react-icons/fa'
+import {FaGithub,FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonFill} from 'react-icons/bs'
 const SocialLinks = () => {
@@ -46,7 +46,7 @@ const SocialLinks = () => {
         },
     ]
   return (
-    <div className='hidden md:flex lg:flex flex-col top-[35%] left-0 fixed'>
+    <div className='hidden  lg:flex flex-col top-[35%] left-0 fixed'>
       <ul>
           {
               links.map(({id,child,href,style,download})=>(
@@ -58,20 +58,10 @@ const SocialLinks = () => {
               rel="noreferrer"
               >
                   {child}
-                  </a>
-                  <div>
-                      
-                  </div>
-                  </li>
+                  </a></li>
               ))}
-              <div className='cursor-pointer pr-5'>
-<FaBars size={30}/>
-              </div>
           
       </ul>
-      <div className='cursor-pointer pr-10'>
-          <FaBars size={100}/>
-      </div>
     </div> 
   )
 }
