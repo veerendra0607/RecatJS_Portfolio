@@ -6,6 +6,7 @@ import HomeDashBord from "./component/HomeDashBord";
 import NavBar from "./component/NavBar";
 import Portfolio from "./component/Portfolio";
 import SocialLinks from "./component/SocialLinks";
+import CommunicatChat from "./component/chat"
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
      <Experience/>
      <Contact/>
      <SocialLinks/>
+     <CommunicatChat/>
     </div>
   );
 }
